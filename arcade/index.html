@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Tic-Tac-Toe</h1>
+        <button id ="numOfPlayers1" class = "numOfPlayers">1 Player</button>
+        <button id ="numOfPlayers2" class = "numOfPlayers">2 Player</button>
+    <div id="playerNames1">
+        <p id="player1Info">Player 1:<input type="text" id="player1" class = "nameEntry"></input><button id="nameEntryButton1" class = "submitName">submit</button>
+        </p>
+        </div>
+    <div id="playerNames2"><p id="player2Info">Player 2:<input type="text" id="player2" class = "nameEntry"></input><button id="nameEntryButton2" class = "submitName">submit</button></p>
+        </div>
+           
+    <div id="gameDisplay">
+        <div id="gameBoard">
+            <div id="space0" class="gridSpace"></div>
+            <div id="space1" class="gridSpace"></div>
+            <div id="space2" class="gridSpace"></div>
+            <div id="space3" class="gridSpace"></div>
+            <div id="space4" class="gridSpace"></div>
+            <div id="space5" class="gridSpace"></div>
+            <div id="space6" class="gridSpace"></div>
+            <div id="space7" class="gridSpace"></div>
+            <div id="space8" class="gridSpace"></div>
+        </div>
+    </div>
+    
+    <p id="playerTurnDisplay"> It is  turn</p>
+
+    <button id="reset">Reset Game</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+#gameBoard{
+   display: grid;
+   grid-template-columns: 150px 150px 150px;
+   grid-template-rows: 150px 150px 150px;
+   pointer-events: none;
+}
+
+h1{
+    font-size: 75px;
+    color: rgb(243, 247, 54);
+}
+
+.gridSpace {
+    color:rgb(243, 247, 54);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+.gridspace:hover {
+    cursor: grab;
+}
+#space0, #space1, #space3, #space4 {
+    border-right: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+}
+#space2, #space5 {
+    border-bottom: 5px solid orangered;
+}
+#space6, #space7 {
+    border-right: 5px solid orangered;
+}
+p {
+    font-size: 35px;
+    margin: 20px;
+    color: rgb(243, 247, 54);   
+}
+.nameEntry {
+    margin: 15px;
+}
+
+button {
+    font-size: 35px;
+    margin: 30px;
+    cursor:grab;
+}
+#reset {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.numOfPlayers {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.submitName {
+    font-size: 16px;
+}
+#player2names {
+    padding: 20px;
+}
+#playerTurnDisplay {
+    margin: 20px;
+    padding: 20px;
+    display: none;
+}
+#gameDisplay {
+    display: none;
+}
+#playerNames1 {
+    display: none;
+}
+#playerNames2 {
+    display: none;
+}
